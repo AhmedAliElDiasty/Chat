@@ -14,6 +14,4 @@ ds.on('connectionStateChanged', connection => {
 ds.on('error', err => {
   console.log(`Deapstream error: ${err}`);
 });
-export const client = ds.login();
-
-// myRecord = client.record.getRecord('test/index')
+export default ds  ;
